@@ -29,3 +29,8 @@ $("input[type='text']").keypress(function(e) {
     );
   }
 });
+
+// Toggle Add New Todo bar
+$(".fa-plus").on("click", function() {
+  $("input[type=text]").fadeToggle();
+});
